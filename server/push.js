@@ -7,14 +7,11 @@ const vapid = require('./vapid.json');
 
 const webpush = require('web-push');
 
-webpush.setVapidDetails(
-    'mailto:fernando.herrera85@gmail.com',
-    vapid.publicKey,
-    vapid.privateKey
-  );
-
-
-
+webPush.setVapidDetails(
+  'mailto:william.cely05@uptc.edu.co',
+  process.env.VAPID_PUBLIC_KEY,
+  process.env.VAPID_PRIVATE_KEY
+);
 
 let suscripciones = require('./subs-db.json');
 
