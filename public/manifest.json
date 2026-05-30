@@ -1,11 +1,14 @@
 {
-  "short_name": "ChatPWA",
-  "name": "Chat para superheroes",
-  "start_url": "index.html",
-  "background_color": "#3498db",
-  "theme_color": "#3498db",
+  "short_name": "ChatHéroes",
+  "name": "Chat para Superhéroes",
+  "description": "Chat PWA para superhéroes con GPS y cámara",
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#2980b9",
+  "theme_color": "#2980b9",
   "display": "standalone",
   "orientation": "portrait",
+  "lang": "es",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
@@ -45,7 +48,8 @@
     {
       "src": "img/icons/icon-512x512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ]
 }
